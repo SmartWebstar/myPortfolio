@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /*
+Host: letteldream.github.io
