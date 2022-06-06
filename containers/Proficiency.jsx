@@ -15,7 +15,7 @@ const Proficiency = () => {
               return (
                 <div className="progress-info" key={skill.Stack}>
                   <div className="progress-label">
-                    <span>{skill.Stack}</span>
+                    <span style={{fontSize:'15px'}}>{skill.Stack}</span>
                   </div>
                   <div className="progress-percentage">
                     <span>{skill.progressPercentage}%</span>
