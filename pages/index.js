@@ -17,12 +17,12 @@ import SEO from "../components/SEO";
 export default function Home({ githubProfileData }) {
   return (
     <div>
-      {/* <SEO
+      <SEO
         data={{
           title: "Quinn Lee",
           description:
             "Blockchain Ninja",
-          image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+          image: "https://avatars3.githubusercontent.com/u/94611797?v=4",
           url: "https://letteldream.github.io",
           keywords: [
             "Quinn",
@@ -33,7 +33,7 @@ export default function Home({ githubProfileData }) {
             "Quinn Lee Portfolio",
           ],
         }}
-      /> */}
+      />
       <Navigation />
       <Greetings />
       <Skills />
